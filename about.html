@@ -1,0 +1,243 @@
+<!doctype html>
+<html data-ng-app="pragyanSchoolWebApp" data-ng-controller="generalController" dir="ltr" lang="en-IN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <base href="https://pragyanschool.com/">
+    <title data-ng-bind-html="$root.metatags.title">Home</title>
+    <meta name="name" content="Home" />
+    <meta name="description" content="The world of Imagination, Discovery & Learning" />
+    <meta name="keywords" content="pragyan,school,greater noida,cbse,education,private school, school in greater noida,teachers,admissions,secondary school,primary school,best schools in greater noida" />
+    <meta name="image" content="https://pragyanschool.com/uploads/thumbnail/f7bbdaa646b9026190bb139429c639e6.jpg" />
+    <meta name="author" content="Pragyan School" />
+    <meta name="copyright" content="Pragyan School 2025" />
+    <meta name="generator" content="pragyanschool.com" />
+    <meta name="language" content="en-IN" />
+    <meta name="robots" content="index, follow" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Pragyan School" />
+    <meta property="og:site_name" content="Pragyan School" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home" />
+    <meta property="og:description" content="The world of Imagination, Discovery & Learning" />
+    <meta property="og:url" content="https://pragyanschool.com" />
+    <meta property="og:image" content="https://pragyanschool.com/uploads/thumbnail/f7bbdaa646b9026190bb139429c639e6.jpg" />
+    <meta property="og:image:alt" content="https://pragyanschool.com/media/logo-large.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Home" />
+    <meta name="twitter:description" content="The world of Imagination, Discovery & Learning" />
+    <meta name="twitter:domain" content="pragyanschool.com" />
+    <meta name="twitter:image" content="https://pragyanschool.com/uploads/thumbnail/f7bbdaa646b9026190bb139429c639e6.jpg" />
+    <link rel="apple-touch-icon" href="https://pragyanschool.com/media/favicon.png" />
+    <link rel="icon" href="https://pragyanschool.com/media/favicon.png" />
+    <link rel="canonical" href="https://pragyanschool.com" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Pragyan School","url":"https://pragyanschool.com"}</script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"webpage","name":"Home","image":"https://pragyanschool.com/uploads/thumbnail/f7bbdaa646b9026190bb139429c639e6.jpg","datePublished":"2014-12-13 18:30:00"}</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preload" href="https://pragyanschool.com/css/public.min.css?t=1740486600" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://pragyanschool.com/css/public.min.css?t=1740486600" /></noscript>
+
+    <script type="text/javascript" nonce="iKddmlELqAFlpKbILrBPFaZ+RnQ=">
+        var baseUrl = 'https://pragyanschool.com';
+        var apiUrl  = 'https://pragyanschool.com/api';
+        var cdnUrl  = 'https://pragyanschool.com';
+        var siteName= 'Pragyan School';
+        var siteEnv = 'PROD';
+        var build   = '1740486600';
+        var showPopup = true;
+    </script>
+
+    <style type="text/css">
+        body {
+            background-color: #ffffff; /* Default white background */
+        }
+        
+        /* Aqua section styling */
+        .aqua-section {
+            background-color: aqua !important;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        /* Additional styling for content inside aqua section */
+        .aqua-section h2 {
+            color: #006666;
+        }
+        
+        .aqua-section p {
+            color: #004d4d;
+        }
+        
+        /* Fix for any existing styles */
+        .navbar-light {
+            background-color: #ffffff !important;
+        }
+    </style>
+</head>
+<body data-ng-class="{'loading':isLoading}" data-ng-cloak aria-label="Pragyan school website">
+    <md-progress-linear md-mode="indeterminate" data-ng-if="isLoading" style="position: absolute;top: 0;z-index: 10;"></md-progress-linear>
+
+    <div class="loader" id="page-loader">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <header class="header" role="navigation">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-white navbar-header hover-menu" id="headerNav" data-ng-class="{ 'navbar-open' : mainNavOpen }">
+            <a class="navbar-brand mr-0 mr-md-3 p-0" href="https://pragyanschool.com/home">
+                <img class="navbar-logo p-0 mr-2" data-ng-src="{{ baseUrl }}/media/icon.svg" alt="Pragyan School" height="48" />
+                <img class="navbar-name p-0" data-ng-src="{{ baseUrl }}/media/PragyanSchool.svg" alt="Pragyan School" height="48" />
+            </a>
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas" data-target="#mainNav" aria-controls="mainNav" aria-expanded="{{ mainNavOpen }}" aria-label="Toggle navigation" data-ng-click="mainNavOpen=!mainNavOpen">
+                <div class="icon-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse mt-md-auto" id="mainNav">
+                <lists items="menuLinks" class="navbar-nav mx-auto mr-lg-0"></lists>
+            </div>
+        </nav>
+
+        <div class="nav-scroller bg-white shadow-sms shadow-md-0">
+            <lists items="secondaryNavLinks" class="nav mx-auto mr-lg-0 bg-light nav-underline" id="secondaryNav"></lists>
+        </div>
+    </header>
+
+    <main role="main" class="main-body">
+        <!-- Regular content section -->
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Welcome to Pragyan School</h1>
+                    <p>The world of Imagination, Discovery & Learning</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- This is the aqua section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="aqua-section">
+                        <h2 class="text-center">Our Vision</h2>
+                        <p class="text-center">At Pragyan School, we strive to create a nurturing environment where students can flourish academically, socially, and emotionally.</p>
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <h4>Academic Excellence</h4>
+                                <p>We focus on providing quality education that prepares students for future challenges.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Character Development</h4>
+                                <p>We nurture values that help students become responsible citizens and future leaders.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Innovative Learning</h4>
+                                <p>We implement modern teaching methodologies to make learning engaging and effective.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Another regular content section -->
+        <div class="content-wrapper" data-ng-view data-ng-cloak autoscroll="true">
+            <div id="loader"></div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h3>Latest News</h3>
+                        <p>Stay updated with the latest events and achievements at Pragyan School.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer text-center py-5">
+        <div class="container">
+            <div class="row align-items-start justify-content-center">
+                <div class="col-sm-6 col-lg-3 mb-4 mb-md-3">
+                    <i class="material-icons">place</i>
+                    <h5 class="text-uppercase">Locate Us</h5>
+                    <div class="" data-aos="fade-up">
+                        <address class="mb-0">
+                            Sector Gamma 1, Greater Noida<br>
+                            Dist. Gautam Budh Nagar,<br>
+                            U.P. 201308, India
+                        </address>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-4 mb-md-3">
+                    <i class="material-icons">phone</i>
+                    <h5 class="text-uppercase">Call Us</h5>
+                    <div class="" data-aos="fade-up">
+                        <p class="mb-0"><a href="tel:+911204296701">+91-120-4296701</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-4 mb-md-3">
+                    <i class="material-icons">mail</i>
+                    <h5 class="text-uppercase">Email Us</h5>
+                    <div class="" data-aos="fade-up">
+                        <p class="mb-0"><a href="mailto:info@pragyanschool.com">info@pragyanschool.com</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-4 mb-md-3">
+                    <i class="material-icons">thumb_up_alt</i>
+                    <h5 class="text-uppercase">Interact With Us</h5>
+                    <div class="footer-widget">
+                        <ul class="nav justify-content-center social-icons footer-social">
+                            <li class="nav-item" data-aos="fade-up">
+                                <a class="nav-link" href="http://www.facebook.com/pragyanschool" target="_blank" title="Facebook" rel="noopener noreferrer">
+                                    <svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#9e9e9e" d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-up">
+                                <a class="nav-link" class="nav-link" href="https://twitter.com/pragyanschool" target="_blank" title="Twitter" rel="noopener noreferrer">
+                                    <svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#9e9e9e" d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-up">
+                                <a class="nav-link" href="https://www.linkedin.com/in/pragyanschool" target="_blank"  title="Linkedin" rel="noopener noreferrer">
+                                    <svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#9e9e9e" d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-up">
+                                <a class="nav-link" href="https://youtube.com/PragyanSchoolGreaterNoida" target="_blank"  title="Youtube" rel="noopener noreferrer">
+                                    <svg width="25" height="25" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="#9e9e9e" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p>© 2025 Pragyan School. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://pragyanschool.com/js/public.min.js?t=1740486600"></script>
+	<script src="https://pragyanschool.com/js/index.js?t=1740486600"></script>	
+</body>
+</html>
